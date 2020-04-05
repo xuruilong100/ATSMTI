@@ -8,6 +8,8 @@
 * 模拟 CIR 模型下的零息利率；
 * 用 Kalman 滤波估计 CIR 模型的参数。
 
+> 参考：<https://github.com/jgmodgoh/kf_filter>
+
 ---
 
 The project is an OOP style implemention (by R6 class) of paper [*Affine Term-Structure Models: Theory and Implementation*](https://www.bankofcanada.ca/2001/10/working-paper-2001-15/), including:
@@ -15,3 +17,4 @@ The project is an OOP style implemention (by R6 class) of paper [*Affine Term-St
 * simulation of zero rates drived by CIR;
 * estimation model parameters by Kalman filter
 
+> Reference：<https://github.com/jgmodgoh/kf_filter>
