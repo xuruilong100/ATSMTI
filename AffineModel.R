@@ -29,7 +29,10 @@ AffineModel <- R6Class(
         drift = function(x){return(NA)},
         diffusion = function(x){return(NA)},
         diffusionDerivative = function(x){return(NA)},
-        init = function(x){return(NA)},
+        init = function()
+        {
+            return(private$theta_)
+        },
         A = function(tau){return(NA)},
         B = function(tau){return(NA)},
         factor = function(terminal, dt)
@@ -124,10 +127,6 @@ Vasicek <- R6Class(
         diffusionDerivative = function(x)
         {
             return(0)
-        },
-        init = function(x)
-        {
-            return(private$theta_)
         })
 )
 
@@ -189,10 +188,6 @@ CIR <- R6Class(
         diffusionDerivative = function(x)
         {
             return(0.5 * private$sigma_ / sqrt(x))
-        },
-        init = function(x)
-        {
-            return(private$theta_)
         })
 )
 
