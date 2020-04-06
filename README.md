@@ -8,6 +8,10 @@
 * 模拟 CIR 模型下的零息利率；
 * 用 Kalman 滤波估计 CIR 模型的参数。
 
+相关文章：
+* [仿射期限结构模型：理论与实现——理论部分](https://www.cnblogs.com/xuruilong100/p/12640795.html)
+* [仿射期限结构模型：理论与实现——实现部分](https://www.cnblogs.com/xuruilong100/p/12641475.html)
+
 > 参考：<https://github.com/jgmodgoh/kf_filter>
 
 ---
